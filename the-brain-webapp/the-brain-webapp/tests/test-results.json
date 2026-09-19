@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checks": [
+    "Hospital board: six fictional patients and desktop layout",
+    "Locked/empty pathways before selecting a patient",
+    "Imaging order/review gate, slider and annotations",
+    "Wrong diagnosis/management feedback and mandatory time-out",
+    "Target order, instrument errors, keyboard actions, pause and hint dialog",
+    "First complete operation and deterministic scoring (76/100)",
+    "Complete case: chen; appropriate tumor pathway",
+    "Complete case: ortiz; appropriate aneurysm pathway",
+    "Complete case: reed; appropriate nonoperative pathway",
+    "Complete case: brooks; appropriate nonoperative pathway",
+    "Complete case: bell; appropriate hematoma pathway",
+    "Case log, individual debrief lookup and JSON export",
+    "Replay, save serialization, fresh-context resume paused, and completion",
+    "Challenge drain, frozen mode, off-screen pause and failure debrief",
+    "Touch workflow, 44px targets, and responsive layouts at 390px and 320px",
+    "Storage-unavailable fallback still completes a full nonoperative case",
+    "Invalid saved JSON recovers to a usable game",
+    "Reset confirmation, cancel protection, and full reset",
+    "No uncaught JavaScript errors across the regression runs"
+  ],
+  "uncaughtJavaScriptErrors": [],
+  "environment": "Chromium; generated HTML rendered with Playwright set_content",
+  "limits": [
+    "Browser navigation is restricted in the test environment; no public URL was deployed.",
+    "Save/resume tests used an in-memory localStorage test double. Disk-backed storage and native file navigation were not validated here.",
+    "Hosted service-worker offline/install behavior was not browser-tested in this environment.",
+    "Mobile checks used Chromium touch emulation, not physical Safari/iOS devices.",
+    "No clinical validation or educational-outcome validation has been performed."
+  ]
+}
