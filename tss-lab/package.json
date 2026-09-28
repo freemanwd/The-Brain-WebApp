@@ -1,0 +1,1 @@
+{"name":"tss-lab","private":true,"scripts":{"build":"mkdir -p dist && cp index.html app.js vercel.json dist/"},"engines":{"node":">=20"}}
